@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "xtion_launch")
+set(xtion_launch_MAINTAINER "shamwell <shamwell@todo.todo>")
+set(xtion_launch_DEPRECATED "")
+set(xtion_launch_VERSION "0.0.0")
+set(xtion_launch_BUILD_DEPENDS "roscpp" "rospy")
+set(xtion_launch_RUN_DEPENDS "roscpp" "rospy")
+set(xtion_launch_BUILDTOOL_DEPENDS "catkin")

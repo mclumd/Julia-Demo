@@ -1,0 +1,2 @@
+alma_ros:ar_track_alvar:ar_track_alvar_msgs:drone_tracker_demo:pocketsphinx:ros_asoa:sphinx_mcl:xtion_launch
+-DCATKIN_DEVEL_PREFIX=/home/mcl/ROS/bobdemo_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mcl/ROS/bobdemo_ws/install -G Unix Makefiles

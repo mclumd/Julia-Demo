@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "sphinx_mcl")
+set(sphinx_mcl_MAINTAINER "shamwell <shamwell@todo.todo>")
+set(sphinx_mcl_DEPRECATED "")
+set(sphinx_mcl_VERSION "0.0.0")
+set(sphinx_mcl_BUILD_DEPENDS "roscpp")
+set(sphinx_mcl_RUN_DEPENDS "roscpp")
+set(sphinx_mcl_BUILDTOOL_DEPENDS "catkin")

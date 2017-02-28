@@ -1,0 +1,8 @@
+prefix=/home/mcl/ROS/bobdemo_ws/devel
+
+Name: sphinx_mcl
+Description: Description of sphinx_mcl
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mcl/ROS/bobdemo_ws/devel/lib 
+Requires: 

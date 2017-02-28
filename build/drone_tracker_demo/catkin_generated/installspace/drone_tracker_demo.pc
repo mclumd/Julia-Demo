@@ -1,0 +1,8 @@
+prefix=/home/mcl/ROS/bobdemo_ws/install
+
+Name: drone_tracker_demo
+Description: Description of drone_tracker_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mcl/ROS/bobdemo_ws/install/lib 
+Requires: 

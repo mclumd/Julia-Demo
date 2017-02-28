@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "drone_tracker_demo")
+set(drone_tracker_demo_MAINTAINER "shamwell <shamwell@todo.todo>")
+set(drone_tracker_demo_DEPRECATED "")
+set(drone_tracker_demo_VERSION "0.0.0")
+set(drone_tracker_demo_BUILD_DEPENDS "roscpp")
+set(drone_tracker_demo_RUN_DEPENDS "roscpp")
+set(drone_tracker_demo_BUILDTOOL_DEPENDS "catkin")

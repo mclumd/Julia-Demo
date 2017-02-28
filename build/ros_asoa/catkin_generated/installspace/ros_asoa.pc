@@ -1,0 +1,8 @@
+prefix=/home/mcl/ROS/bobdemo_ws/install
+
+Name: ros_asoa
+Description: Description of ros_asoa
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mcl/ROS/bobdemo_ws/install/lib 
+Requires: 
