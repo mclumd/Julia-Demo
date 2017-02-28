@@ -1,0 +1,7 @@
+<launch>
+    <!-- launch openni to talk to kinect -->
+    <include file="$(find openni2_launch)/launch/openni2.launch" />	
+    <node pkg="tf" type="static_transform_publisher" name="kinectTransformer" args="0.207 0.118 0.58 -0.01 0.05 -.01 /torso /camera_link 10" />
+</launch>
+		
+		
