@@ -1,0 +1,23 @@
+# ignore log files
+log/debugal.*
+log/debugca.*
+log/history.*
+
+# ignore compiled files
+*.qof
+*.o
+*.pyc
+Alma/alma
+Alma/compdate.pl
+BerkeleyParser/parser
+BerkeleyParser/parse
+Carne/carne
+LinkParser/parse
+UI/getutterance
+UI/obj/*
+
+# ignore temp backup files
+*~
+
+# ignore user setting files
+etc/*
