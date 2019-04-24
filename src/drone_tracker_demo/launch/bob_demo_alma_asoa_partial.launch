@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="ros_asoa" type="asoa_say.py" name="asoa_server" output="screen"/>
+  <node pkg="sound_play" type="soundplay_node.py" name="sp_server" output="screen"/>
+  <node pkg="drone_tracker_demo" type="drone_tracker_demo_node" name="drone_tracker"/>
+  <node pkg="drone_tracker_demo" type="bob_cnc1.py" name="bob_cnc"/>
+  <node pkg="alma_ros_pkg" type="alma_node.py" name="alma_node"/>
+  <node pkg="sphinx_mcl" type="sphinx_mcl_node" name="sphinx_mcl" output="screen"/>
+  <node pkg="sphinx_mcl" type="sphinx_mcl_nosoa_node" name="sphinx_mcl_nosoa" output="screen"/>
+  <node pkg="sphinx_mcl" type="cmd_process_with_alma.py" name="sphinx_cmd_process" output="screen"/>
+</launch>
+

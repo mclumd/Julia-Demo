@@ -1,0 +1,96 @@
+Language model created by QuickLM on Fri Apr 17 09:54:23 EDT 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 12 sentences and 19 words
+
+\data\
+ngram 1=19
+ngram 2=28
+ngram 3=26
+
+\1-grams:
+-1.0000 </s> -0.3010
+-1.0000 <s> -0.2553
+-1.7782 BAXTER -0.2553
+-2.0792 BUZZ -0.2553
+-1.7782 FIND -0.2672
+-2.0792 GOODBYE -0.2937
+-2.0792 HELLO -0.2937
+-2.0792 LAND -0.2711
+-2.0792 LOWER -0.2711
+-2.0792 OFF -0.2711
+-2.0792 ON -0.2711
+-1.7782 POINT -0.2937
+-1.1761 QUAD -0.2553
+-2.0792 RAISE -0.2711
+-2.0792 THANK -0.2974
+-1.1761 THE -0.2711
+-1.7782 TO -0.2711
+-1.7782 TURN -0.2937
+-2.0792 YOU -0.2553
+
+\2-grams:
+-1.0792 <s> FIND 0.0000
+-1.3802 <s> GOODBYE 0.0000
+-1.3802 <s> HELLO 0.0000
+-1.3802 <s> LAND 0.0000
+-1.3802 <s> LOWER 0.0000
+-1.0792 <s> POINT 0.0000
+-1.3802 <s> RAISE 0.0000
+-1.3802 <s> THANK 0.0000
+-1.0792 <s> TURN 0.0000
+-0.3010 BAXTER </s> -0.3010
+-0.3010 BUZZ </s> -0.3010
+-0.6021 FIND BUZZ 0.0000
+-0.6021 FIND THE 0.0000
+-0.3010 GOODBYE BAXTER 0.0000
+-0.3010 HELLO BAXTER 0.0000
+-0.3010 LAND THE 0.0000
+-0.3010 LOWER THE 0.0000
+-0.3010 OFF THE 0.0000
+-0.3010 ON THE 0.0000
+-0.3010 POINT TO 0.0000
+-0.3010 QUAD </s> -0.3010
+-0.3010 RAISE THE 0.0000
+-0.3010 THANK YOU 0.0000
+-0.3010 THE QUAD 0.0000
+-0.3010 TO THE 0.0000
+-0.6021 TURN OFF 0.0000
+-0.6021 TURN ON 0.0000
+-0.3010 YOU </s> -0.3010
+
+\3-grams:
+-0.6021 <s> FIND BUZZ
+-0.6021 <s> FIND THE
+-0.3010 <s> GOODBYE BAXTER
+-0.3010 <s> HELLO BAXTER
+-0.3010 <s> LAND THE
+-0.3010 <s> LOWER THE
+-0.3010 <s> POINT TO
+-0.3010 <s> RAISE THE
+-0.3010 <s> THANK YOU
+-0.6021 <s> TURN OFF
+-0.6021 <s> TURN ON
+-0.3010 FIND BUZZ </s>
+-0.3010 FIND THE QUAD
+-0.3010 GOODBYE BAXTER </s>
+-0.3010 HELLO BAXTER </s>
+-0.3010 LAND THE QUAD
+-0.3010 LOWER THE QUAD
+-0.3010 OFF THE QUAD
+-0.3010 ON THE QUAD
+-0.3010 POINT TO THE
+-0.3010 RAISE THE QUAD
+-0.3010 THANK YOU </s>
+-0.3010 THE QUAD </s>
+-0.3010 TO THE QUAD
+-0.3010 TURN OFF THE
+-0.3010 TURN ON THE
+
+\end\

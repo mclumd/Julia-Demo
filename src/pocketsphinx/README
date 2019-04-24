@@ -1,0 +1,4 @@
+sudo apt-get install ros-indigo-pocketsphinx 
+pacmd
+dump
+Model Trainer: http://www.speech.cs.cmu.edu/tools/lmtool-new.html
